@@ -132,7 +132,7 @@ function App() {
                 alt="SCS Complete Solutions Logo" 
               />
               </div>
-              <div className="hidden sm:block ml-2 text-sm font-medium text-[#005B96]">
+              <div className=" sm:block ml-2 text-sm font-medium text-[#005B96]">
                 Saraswathi Complete Solutions
               </div>
             </div>
@@ -162,7 +162,7 @@ function App() {
             <div className="md:hidden">
               <button
                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                className="text-gray-300 hover:text-[#D4AF37]"
+                className="text-[#005B96] hover:text-[#D4AF37]"
               >
                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
               </button>
@@ -172,8 +172,8 @@ function App() {
 
         {/* Mobile Menu */}
         {isMenuOpen && (
-          <div className="md:hidden bg-gray-900 border-t border-gray-800 shadow-lg">
-            <div className="px-4 pt-2 pb-3 space-y-1">
+          <div className="md:hidden bg-gray-900 border-t  border-gray-800 shadow-lg">
+            <div className="px-4 pt-2 pb-3 space-y-1 ">
               {[
                 { name: 'Home', id: 'home' },
                 { name: 'About Us', id: 'about' },

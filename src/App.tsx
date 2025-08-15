@@ -118,14 +118,14 @@ function App() {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-900">
+    <div className="min-h-screen text-gray-900">
       {/* Navigation */}
-      <nav className="fixed top-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm shadow-lg border-b border-gray-800 z-50">
+      <nav className="fixed top-0 left-0 right-0 bg-slate-200/90 backdrop-blur-sm shadow-lg border-b border-gray-800 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             {/* Logo */}
             <div className="flex items-center">
-              <div className="text-2xl font-bold text-[#005B96]">
+              <div className="text-2xl font-bold ">
               <img 
                 className="h-10 w-auto" 
                 src="https://github.com/gridnestworkforce/assets/blob/main/SCS%20logo.png?raw=true" 
@@ -149,7 +149,7 @@ function App() {
                 <button
                   key={item.id}
                   onClick={() => scrollToSection(item.id)}
-                  className={`text-gray-300 hover:text-[#D4AF37] font-medium transition-colors duration-300 ${
+                  className={`text-blue-700 hover:text-[#D4AF37] font-medium transition-colors duration-300 ${
                     activeSection === item.id ? 'text-[#D4AF37] border-b-2 border-[#D4AF37]' : ''
                   }`}
                 >
@@ -386,7 +386,7 @@ function App() {
         ></div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4">Our Values & Culture</h2>
+            <h2 className="text-4xl font-bold mb-4">Our Values</h2>
             <p className="text-xl max-w-3xl mx-auto opacity-90">
               Built on trust, respect, and responsibility in every relationship we foster
             </p>
@@ -457,7 +457,7 @@ function App() {
                   <div>
                     <h3 className="text-xl font-bold text-white mb-2">Office Address</h3>
                     <p className="text-gray-300">
-                      #951, 2nd Floor, 2nd Stage, Bazaar Street,<br />
+                      #951, 2nd Stage, Bazaar Street,<br />
                       Austin Town, Bengaluru – 560047
                     </p>
                   </div>
